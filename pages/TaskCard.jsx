@@ -1,6 +1,5 @@
-import React from "react";
 
-export const TaskCard = ({ t, d, deleteTaskHandler }) => {
+const TaskCard = ({ t, d, deleteTaskHandler }) => {
   const deleteTask = () => {
     deleteTaskHandler({ t });
   };
@@ -25,3 +24,6 @@ export const TaskCard = ({ t, d, deleteTaskHandler }) => {
     </div>
   );
 };
+
+
+export default TaskCard;

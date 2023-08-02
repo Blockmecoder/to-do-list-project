@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { TaskCard } from "./TaskCard";
 
-const index = () => {
+const Index = () => {
   const [TaskValue, setTaskValue] = useState([]);
   useEffect(() => {
     const niggy = localStorage.getItem("nigga");
@@ -92,4 +92,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
